@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}accademica{% endblock %}
+
+{% block header%}
+{% endblock %}
+{% block content %}
+<div class="list-group list-group-flush">
+  {% for collection in collection_list %}
+    <button type="button" class="list-group-item list-group-item-action"> {{ collection.title }} / {{ collection.author }} / {{ collection.publisher }} </button>
+  {% endfor %}
+</div>
+{% endblock %}

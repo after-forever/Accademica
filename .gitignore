@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.vscode/
+
+node_modules/
+accademica.code-workspace
+package-lock.json
+package.json
